@@ -1,11 +1,8 @@
 a = int(input())
-if a >= 90:
-    print("A")
-elif a >= 80:
-    print("B")
-elif a >= 70:
-    print("C")
-elif a >= 60:
-    print("D")
+if a % 4 == 0:
+    if a % 100 != 0 or a % 400 == 0:
+        print("1")
+    else:
+        print("0")
 else:
-    print("F")
+    print("0")
