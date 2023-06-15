@@ -1,5 +1,5 @@
 Environment
-- OS : Ubuntu 20.04 LTS
+- OS : Ubuntu Server 20.04 LTS
 - Architecture : amd64
 - IDE : Code-Server v4.13.0
 - Language : Python 3.8.10
