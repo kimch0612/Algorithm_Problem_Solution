@@ -1,13 +1,12 @@
-NA = []
-MA = []
-N = int(input())
-NA.append(input().split(" "))
-NA = sum(NA, [])
-M = int(input())
-MA.append(input().split(" "))
-MA = sum(MA, [])
-for _ in range(M):
-    if MA[_] in NA:
-        print("1")
+import sys
+
+N = int(sys.stdin.readline())
+NA = set(map(int, sys.stdin.readline().split()))
+M = int(sys.stdin.readline())
+MA = list(map(int, sys.stdin.readline().split()))
+
+for i in MA:
+    if i in NA:  
+        print(1)
     else:
-        print("0")
+        print(0)
