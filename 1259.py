@@ -10,5 +10,5 @@ while True:
 for _ in range(len(word_list)):
     if str(word_list[_]) == str(word_list[_])[::-1]:
         print("yes")
-    else:
+    else:    
         print("no")
